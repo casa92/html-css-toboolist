@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f8f9;
+}
+
+/*COMMON*/
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 500px;
+    background-color: gray;
+}
+
+/*HEADER*/
+header {
+    background-color: white;
+}
+#logo {
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#logo-title {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bolder;
+    vertical-align: middle;
+}
