@@ -10,27 +10,126 @@ body {
 }
 
 /*COMMON*/
-.container {
-    width: 80%;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 5px;
-    height: 500px;
-    background-color: gray;
+hr {
+    
+    border:1px solid #f6f8f9;
 }
-
+ul {
+    list-style: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+li {
+    padding-bottom: 10px;
+}
 /*HEADER*/
 header {
     background-color: white;
 }
 #logo {
-    height: 80px;
+    height: 90px;
     display: inline-block;
     vertical-align: middle;
+    /* padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px; */
+    padding: 15px 0 15px 30px;
 }
 #logo-title {
     display: inline-block;
     font-size: 50px;
-    font-weight: bolder;
+    font-weight: bold;
     vertical-align: middle;
 }
+
+/*MAIN*/
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: white;
+} 
+/*btn add task*/
+#add-buttons {
+    padding: 15px 0 10px 60px;
+}
+.btn-1 {
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+#add-task {
+    border: 1px solid #47adf1;
+    background-color: #47adf1;
+    color: white;
+}
+#add-section {
+    border: 1px solid #c5cbd0;
+    color: #c5cbd0;
+}
+/*task section*/
+#task-section {
+    padding-left: 60px;
+    padding-top: 34px;
+}
+.title-task {
+   font-size: 20px;
+   font-weight: 900;
+}
+.circle {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    line-height: 17px;
+    text-align: center;
+    font-size: 10px;
+}
+.check {
+    border: 1px solid #6bc4ae;
+    color: #6bc4ae;
+}
+.cross {
+    border: 1px solid #ea453b;
+    color: #ea453b;
+}
+
+.task-text {
+    font-size: 18px;
+    font-weight: 600;
+    height: 20px;
+    display: inline-block;
+    line-height: 20px;
+}
+.btn-2 {
+    display: inline-block;
+    font-weight: 200;
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    color: white;
+}
+
+/*btn-back*/
+.editorial-back {
+    background-color: #45abea;
+}
+.goals-back{
+    background-color: #9c72e4;
+}
+.recruiting-back{
+    background-color: #64c0a9;
+}
+.mobile-back{
+    background-color: #f29e33;
+}
+.website-back{
+    background-color: #d863a1;
+}
+.sales-back{
+    background-color: #b0c926;
+
+}
+
